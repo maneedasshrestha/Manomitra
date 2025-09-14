@@ -83,7 +83,7 @@ export function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-[#ec9608]" />
-                <span className="text-background/80">hello@manomitra.org</span>
+                <span className="text-background/80">manomitra024@gmail.com</span>
               </div>
               
               <div className="flex items-center space-x-2">

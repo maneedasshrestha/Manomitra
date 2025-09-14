@@ -6,7 +6,7 @@ import { useState, useEffect, useRef } from "react"
 export function TeamSection() {
   const teamMembers = [
     {
-      name: "Priya Sharma",
+      name: "Puja Khanal",
       role: "Founder & Community Coordinator",
       bio: "Psychology student passionate about breaking mental health stigma in Nepal. Started Manomitra after experiencing the lack of youth-friendly mental health resources.",
       image: "/young-nepali-woman-smiling-confident-psychology-st.jpg",
