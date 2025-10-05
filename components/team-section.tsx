@@ -8,51 +8,46 @@ export function TeamSection() {
     {
       name: "Puja Khanal",
       role: "Youth Advocate & Founder",
-      bio: "Psychology student passionate about breaking mental health stigma in Nepal. Started Manomitra after experiencing the lack of youth-friendly mental health resources.",
-      image: "/young-nepali-woman-smiling-confident-psychology-st.jpg",
+      bio: "Nepal Public health professional| Msc. Public Health and behaviour change| Brunel- university of London",
+      image: "/team/Puja.jpg",
     },
     {
-      name: "lorem",
-      role: "Co-founder",
-      bio: "Social work student who believes in the power of peer connections. Leads our support groups and trains new volunteers in active listening.",
-      image: "/young-nepali-man-friendly-approachable-social-work.jpg",
-    },
-    {
-      name: "lorem",
-      role: "Advisor/Mentor",
-      bio: "Education major with experience in community outreach. Designs and leads our awareness workshops in schools and colleges across Nepal.",
-      image: "/young-nepali-woman-teacher-educator-workshop-facil.jpg",
+      name: "May Nwe",
+      role: "Advisor/ Mentor",
+      bio: "Research officer at NHS England",
+      image: "/team/May.jpg", //picture not found in drive
     },
     {
       name: "Prerana Magar",
       role: "Research Officer",
-      bio: "Computer science student managing our online presence and digital campaigns. Creates content that resonates with young people across Nepal.",
-      image: "/team/prerana.jpg",
+      bio: "Asian Univerisity for Women at Bangladesh",
+      image: "/team/Prerana.jpg",
     },
     {
-      name: "lorem",
-      role: "IT Officer",
-      bio: "Public health student focused on creating accessible mental health resources. Works on connecting youth with professional counseling services.",
-      image: "/young-nepali-woman-public-health-student-caring-pr.jpg",
-    },
-    {
-      name: "Kusum Bhusal",
+      name: "Bijaya Bhusal",
       role: "Volunteer Lead",
-      bio: "Sociology student building bridges between Manomitra and local communities. Organizes community events and awareness campaigns.",
-      image: "/young-nepali-man-community-organizer-sociology-stu.jpg",
+      bio: "Undergraduate student at RV University In India",
+      image: "/team/Bijaya.jpg",
     },
     {
       name: "Dila KC",
       role: "Social Media Lead",
-      bio: "Sociology student building bridges between Manomitra and local communities. Organizes community events and awareness campaigns.",
-      image: "/team/dila.jpg",
+      bio: "Undergraduate student at Asian University of Women ",
+      image: "/team/Dila.jpg",
     },
     {
-      name: "Pragya Chaudhary",
-      role: "Content & Engagement Lead",
-      bio: "Sociology student building bridges between Manomitra and local communities. Organizes community events and awareness campaigns.",
-      image: "/young-nepali-man-community-organizer-sociology-stu.jpg",
+      name: "Pragya Chaudhary ",
+      role: "Content and Engagement Lead",
+      bio: "Empty",
+      image: "/team/Pragya.jpg",
     },
+    {
+      name: "Pitambari Priyadarshi Mishra",
+      role: "Youth advocate",
+      bio: "Undergraduate student at Ashoka University, India",
+      image: "/team/Pitambari.jpg",
+    },
+    
   ]
 
   const [liked, setLiked] = useState(Array(teamMembers.length).fill(false));
